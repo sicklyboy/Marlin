@@ -1,4 +1,16 @@
 /**
+ * Config for Sunlu S8 with...
+ * - SKR 1.3 mainboard
+ * - RepRap Discount Full Graphics Smart Controller clone display
+ * - TMC2209 X and Y axis
+ * - X and Y sensorless homing
+ * - TMC2208 Z E0 Z2 axis
+ * - CR10-style X carriage swap
+ * - BMG clone extruder
+ * - NO filament runout sensor
+ */
+
+/**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
@@ -744,7 +756,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.6, 79.9, 398, 96 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.6, 79.9, 398, 433.47 }
 
 /**
  * Default Max Feed Rate (mm/s)
