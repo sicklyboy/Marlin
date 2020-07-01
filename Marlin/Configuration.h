@@ -1,4 +1,15 @@
 /**
+ * Config for Creality Ender-3 with...
+ * - SKR Mini E3 v1.2 mainboard
+ * - Stock Ender-3 display
+ * - X and Y sensorless homing
+ * - BLTouch Z homing and bilinear probing
+ * - Direct drive with BMG clone extruder, Volcano clone hot end, fan duct from https://www.thingiverse.com/thing:3751368
+ * - Y axis MGN12H linear rail
+ * - Linear Advance
+ */
+
+/**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
